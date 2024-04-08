@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Sketch Book</title>
+     <link href="style.css" rel="stylesheet">
+</head>
+<body>
+     <div class="container">
+          <div class="head">
+               Etch-A-Sketch
+          </div>
+          <div class="brief">
+               <div class="txt">
+                    Hover over each box to draw!
+               </div>
+          </div>
+          <div class="select">
+               <div class="btn">
+                    Select Grid range: 
+                    <div class="range">
+                         <div class="slider">
+                              <input type="range" class="slider" min="8" max="64" value="16" step="1">
+                         </div>
+                         <div class="sldtxt">
+                              
+                         </div>
+                         
+                    </div>
+               </div>
+               <div class="butn">
+                    <button>
+                         Clear Canvas
+                    </button>
+               </div>
+          </div>
+          <div class="final">
+               <div class="left">
+                    <div class="draw">
+                         <div class="text">
+                              How'd you like to draw?
+                         </div>
+                         <button class="hover">Mouse Hover</button>
+                         <button class="click">Mouse Click</button>
+                    </div>
+                    <div class="sh">
+                         <div class="text">
+                              Show/Hide Grid?
+                         </div>
+                         <button class="show">Show</button>
+                         <button class="hide">Hide</button>
+                    </div>
+                    <div class="eraser">
+                         <button id="eraser">Eraser</button>
+                    </div>
+               </div>
+               <div class="body">
+          
+               </div>
+          </div>
+     </div>
+     <script src="style.js"></script> 
+</body>
+</html>

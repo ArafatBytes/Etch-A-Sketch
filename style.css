@@ -1,0 +1,123 @@
+body{
+     background-image: url(bg2.jpg);
+     background-size: 100%;
+     animation: backgroundGradient 9s infinite;
+     background-repeat: no-repeat;
+}
+
+.container{
+     border: 2px solid #ffffff;
+     border-radius: 50px;
+     box-shadow: 0px 0px 20px 10px #fbf6f668;
+     backdrop-filter: blur(6px);
+     margin: 140px;
+     padding: 15px;
+     margin-top: 50px;
+}
+
+.body{
+     display: flex;
+     flex-direction: column;
+     height: 500px;
+     width: 500px;
+     border: 1px solid white;
+     border-radius: 20px;
+     box-shadow: 0px 0px 20px 0px whitesmoke;
+}
+
+.row{
+     display: flex;
+     flex-direction: row;
+}
+
+.col{
+     display: flex;
+}
+
+.container{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+}
+
+.brief{
+     display: flex;
+     justify-content: space-around;
+     gap: 50px;
+}
+
+.head{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 36px;
+     padding: 20px;
+}
+
+.txt{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 24px;
+     border: 1px dotted  black;
+     padding: 10px;
+     border-radius: 20px;
+}
+
+button{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     background-color: rgba(214, 199, 132, 0.36);
+     padding: 5px;
+     border-radius: 20px;
+     font-size: 18px;
+     font-weight: 600;
+     box-shadow: 10px solid black;
+}
+
+.btn,.butn{
+     padding: 10px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 18px;
+     font-weight: 600;
+}
+
+.select{
+     display: flex;
+     align-items: center;
+     gap: 20px;
+}
+
+.range{
+     display: flex;
+     gap: 10px;
+}
+
+.btn{
+     display: flex;
+}
+
+.final{
+     display: flex;
+     justify-content: space-between;
+     gap: 100px;
+}
+
+.left{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+}
+
+.draw,.sh{
+     display: flex;
+     gap: 20px;
+     align-items: center;
+}
+
+.text{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 24px;
+     font-weight: 800;
+}
